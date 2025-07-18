@@ -236,6 +236,9 @@ footer{
         justify-items: center;
         gap: 24px;
     }
+    .fact{
+        border: none;
+    }
     .our-feature{
         margin-top: 10px;
         text-align: center;
