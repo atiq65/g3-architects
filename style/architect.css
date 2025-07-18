@@ -153,14 +153,19 @@ main > section{
     width: 100%;
 }
 /* some facts related style */
+.some-facts{
+    max-width: 1440px;
+}
 .facts-conteiner{
     display: grid;
-    grid-template-columns: repeat(4, 350px 350px 350px 350px);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin: 0 auto;
 }
 .fact{
     border: 1px solid #FF900E;
-    max-width: 241.83px;
-    height: 241.83px;
+    max-width: 241px;
+    height: 241px;
     border-radius: 8px;
     justify-content: center;
     align-items: center;
@@ -237,7 +242,7 @@ footer{
     }
     #experience-badge{
         margin-top: 20px;
-        margin-left: 20px;
+        margin-left: 5px;
     }
     footer{
         margin-left: 0px;
